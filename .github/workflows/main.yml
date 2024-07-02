@@ -42,7 +42,7 @@ jobs:
         with:
           path: ./public
       - name: Upload to Netim FTP
-        uses: SamKirkland/FTP-Deploy-Action@main
+        uses: SamKirkland/FTP-Deploy-Action@master
         with:
           server: ftp.netim.hosting
           username: AS12798_FTP1
